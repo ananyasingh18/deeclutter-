@@ -1,0 +1,248 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body, input{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+}
+.container:before{ 
+    content:'';
+    position: absolute;
+    height:150rem;
+    width:250rem;
+    top:-10%;
+    right:48%;
+    background-image:linear-gradient(-45deg,#f2a65a 0%,#d3b094 100%);
+    transform: translateY(-50%) ;
+    border-radius:50%;
+}
+.logincontainer:before{ 
+    content:'';
+    position: absolute;
+    height:150rem;
+    width:250rem;
+    top:-10%;
+    right:48%;
+    background-image:linear-gradient(-45deg,#34a0a4 0%,#95d5b2 100%);
+    transform: translateY(-50%) ;
+    border-radius:50%;
+}
+
+
+
+.form-container{
+    position: absolute;
+    right:0rem;
+    padding:6rem 6rem;
+    top:30px;
+    
+  
+
+}
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.signin-title{
+    font-size: 4rem;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    color:#404040;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+.signup-title{
+    font-size: 4rem;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    color:#404040;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.field{
+  
+    padding:20px;
+}
+.input-field{
+    
+    padding:5px;
+    width:300px;
+    height:60px;
+    background-color: #f0f0f0;
+    margin: 10px 0px;
+    border-radius: 40px;
+    display:grid;
+    grid-template-columns:15% 85%;
+    position:relative;
+    padding:0 0.4rem;
+    font-size: 2em;
+}
+.password-field{ 
+    padding:5px;
+    width:300px;
+    height:60px;
+    background-color: #f0f0f0;
+    margin: 10px 0px;
+    border-radius: 40px;
+    display:grid;
+    grid-template-columns:15% 85%;
+    position:relative;
+    padding:0 0.4rem;
+    font-size: 2em;
+    
+}
+
+.email-field{ 
+    padding:5px;
+    width:300px;
+    height:60px;
+    background-color: #f0f0f0;
+    margin: 10px 0px;
+    border-radius: 40px;
+    display:grid;
+    grid-template-columns:15% 85%;
+    position:relative;
+    padding:0 0.4rem;
+    font-size: 2em;
+    
+}
+
+.input-field i{
+    text-align:center;
+    line-height:55px;
+    position: relative;
+    color:#acacac;
+    font-size: 0.6em;
+  
+}
+.password-field i{
+    text-align:center;
+    line-height:55px;
+    position: relative;
+    color:#acacac;
+    font-size: 0.6em;
+}
+.email-field i{
+    text-align:center;
+    line-height:55px;
+    position: relative;
+    color:#acacac;
+    font-size: 0.6em;
+  
+}
+.input-field input{
+    border:none;
+    outline:none;
+    background-color:#f0f0f0;
+    font-weight: 600;
+    color:#333;
+    border-radius:20px;
+
+}
+.password-field input{
+    border:none;
+    outline:none;
+    background-color:#f0f0f0;
+    font-weight: 600;
+    color:#333;
+    border-radius:20px;
+   
+}
+.email-field input{
+    border:none;
+    outline:none;
+    background-color:#f0f0f0;
+    font-weight: 500;
+    color:#333;
+    border-radius:20px;
+}
+.input-field input:placeholder-shown{
+    color:#aaa;
+    font-weight:500;
+    font-size:0.7em;
+}
+.password-field input:placeholder-shown{
+    color:#aaa;
+    font-weight:500;
+    font-size:0.7em;
+}
+.email-field input:placeholder-shown{
+    color:#aaa;
+    font-weight:500;
+    font-size:0.7em;
+}
+
+.btn{
+    width:140px;
+    outline:none;border:none;
+    height:50px;
+    font-size:1.25em;
+    border:none;
+    border-radius:48px;
+    background-color:#e9c46a ; /*change colour*/
+    color:white;
+    margin:5px 0 ;
+    transition:all 0.5s;
+
+}
+.btn:hover{
+    font-weight:bold;
+    background-color:#f2a65a;
+    color:white;
+    margin:5px 0 ;
+    font-size:1.25em;
+}
+.panels-container{
+    position:absolute;
+    margin:30px;
+    top:100px;
+    left:50px;
+    display:grid;
+
+}
+.panel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+
+}
+.headingname{
+    color:white;
+    font-size:60px;
+}
+.para{
+    color:white;
+    font-size:20px;
+
+}
+
+.btn-log{
+    width:140px;
+    outline:none;border:none;
+    height:50px;
+    font-size:1.25em;
+    border:none;
+    border-radius:48px;
+    background-color:#34a0a4 ; /*change colour*/
+    color:white;
+    margin:5px 0 ;
+    transition:all 0.5s;
+
+}
+.btn-log:hover{
+    font-weight:bold;
+    background-color:#168aad;
+    color:white;
+    margin:5px 0 ;
+    font-size:1.25em;
+}

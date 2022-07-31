@@ -1,0 +1,165 @@
+
+
+.socialmedia{
+    margin:10px;
+}
+.image{
+    width:120%;
+    
+}
+
+
+
+h3{
+    font-size:1.8em;
+    color:#062f56;
+   
+}
+h2{
+   
+    font-size:4em;
+    color:#fff;
+}
+
+h4{
+   
+    font-size:40px;
+    color:#fff;
+    padding:40px;
+}
+#title{
+    background-color:#f2a65a;
+}
+
+
+
+.container-fluid{
+    padding:2% 10%;
+}
+
+/*navbar*/
+.navbar-brand{
+    font-size:40px;
+   margin-left:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    
+  font-size:20px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px auto 10 px auto;
+ 
+}
+/*main divison*/
+.image-container{
+ 
+   margin-left: 100px;
+}
+.buttons-con{
+    margin-top:50px;
+    -right: 20px;
+    
+}
+
+.download{
+    margin:10px;
+}
+
+/*features section*/
+#features{
+     padding: 7% 15% 7% 15%;
+}
+.feature-box{
+    padding-top: 8%;
+    padding-bottom:5%;
+    color:#34a0a4;
+    text-align:center;
+}
+
+.icon{
+  
+   margin-bottom:5%;
+   color:#ECB365;
+}
+
+.icon:hover{
+   
+    color:#34a0a4;
+}
+.feature-heading{
+    font-size:2em;
+    color:#34a0a4;
+
+}
+#testimonials{
+   
+    text-align:center;
+    background-color:#34a0a4;
+    color:#fff;
+    margin-bottom:50px;
+    margin-top:50px;
+
+}
+.testimonials-image{
+    border-radius:100%;
+    text-align:center;
+    width:20%;
+    margin-top:2%;
+    margin-bottom:2%;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*pricing*/
+#pricing{
+padding:100px;
+text-align:center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+.pricing-heading{
+    font-size:2.5sem;
+    color:#ECB365;
+
+}
+
+#infobox{
+    padding: 7% 15%;
+    text-align:center;
+    
+    background-color:#ECB365;
+}
+.info-heading{
+    color: #fff;
+   
+}
+
+/*footer*/
+#footer{
+    padding: 7% 15%;
+    text-align:center;
+}
+.socials{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+@media (max-width:991px)
+{
+    #title{
+        text-align:center;
+    }
+    .image{
+        margin-top:30px;
+        margin-right:100px;
+    }
+   .feature-heading{
+        text-align:center;
+    }
+   
+}
+
+.new{
+    color:#002f30;
+}

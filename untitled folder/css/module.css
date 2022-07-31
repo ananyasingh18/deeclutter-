@@ -1,0 +1,184 @@
+
+.socialmedia{
+    margin:10px;
+}
+.image{
+    width:120%;
+    
+}
+
+h5{
+    font-size:1.3em;
+    color:#fff;
+   
+}
+
+h3{
+    font-size:1.8em;
+    color:#fff;
+   
+}
+.feature{
+    font-size:1.8em;
+    color:rgb(37, 31, 31);
+    margin-top: 30px;
+   
+}
+
+
+h4{
+   
+    font-size:40px;
+    color:#fff;
+    padding:40px;
+}
+#title{
+    background-color:#34a0a4;
+}
+
+
+
+.container-fluid{
+    padding:2% 10%;
+}
+
+/*navbar*/
+.navbar-brand{
+    font-size:40px;
+   margin-left:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    
+  font-size:20px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px auto 10 px auto;
+ 
+}
+/*main divison*/
+.image-container{
+ 
+   margin-left: 100px;
+}
+.buttons-con{
+    margin-top:50px;
+    -right: 20px;
+    
+}
+
+.download{
+    margin:10px;
+}
+
+/*features section*/
+#features{
+     padding: 7% 15% 7% 15%;
+}
+.box{
+    padding-top: 8%;
+    padding-bottom:5%;
+    color:#f2a65a;
+    text-align:center;
+}
+
+.icon{
+  
+   margin-bottom:5%;
+   color:#ECB365;
+}
+
+.icon:hover{
+   
+    color:#f2a65a;
+}
+.feature-heading{
+    font-size:2em;
+    color:#f2a65a;
+
+}
+#testimonials{
+   
+    text-align:center;
+    background-color:#f2a65a;
+    color:#fff;
+    margin-bottom:50px;
+    margin-top:50px;
+
+}
+.testimonials-image{
+    border-radius:100%;
+    text-align:center;
+    width:20%;
+    margin-top:2%;
+    margin-bottom:2%;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*pricing*/
+#pricing{
+padding:100px;
+text-align:center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+.pricing-heading{
+    font-size:2.5sem;
+    color:#ECB365;
+
+}
+
+#infobox{
+    padding: 7% 15%;
+    text-align:center;
+    
+    background-color:#34a0a4;
+}
+.info-heading{
+    color: #fff;
+   
+}
+
+/*footer*/
+#footer{
+    padding: 7% 15%;
+    text-align:center;
+}
+.socials{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+@media (max-width:991px)
+{
+    #title{
+        text-align:center;
+    }
+    .image{
+        margin-top:30px;
+        margin-right:100px;
+    }
+   .feature-heading{
+        text-align:center;
+    }
+   
+}
+
+.new{
+    color:#002f30;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
